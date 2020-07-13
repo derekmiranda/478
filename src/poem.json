@@ -1,4 +1,6 @@
 [{
+    "text": "<h1>478</h1><h2>by Derek Miranda</h2>"
+  }, {
     "text": "breathe in for 4",
     "anim": "in"
   },
@@ -33,7 +35,7 @@
     "text": "that my brain just feels like this"
   },
   {
-    "text": "this sucks",
+    "text": "\"this sucks\"",
     "anim": "pulse2"
   },
   {
@@ -112,7 +114,7 @@
     "text": "another chance to embrace imperfection"
   },
   {
-    "text": "another way to be in control without control",
+    "text": "another way to be in control without control.",
     "anim": "end"
   }
 ]

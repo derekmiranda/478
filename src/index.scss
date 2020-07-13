@@ -2,6 +2,7 @@
 
 $bg: #fdf5e6;
 $text-color: #8FAFB0;
+$text-color: #8FAFB0;
 $secondary-color: #FCBAB3;
 $secondary-hover: #B09A97;
 
@@ -12,6 +13,11 @@ body,
   width: 100%;
   height: 100%;
   user-select: none;
+}
+
+h1 {
+  font-size: 4rem;
+  color: darken($text-color, 20);
 }
 
 #container {
@@ -25,7 +31,7 @@ body,
   box-sizing: border-box;
   color: $text-color;
   transform-origin: 50% 50%;
-  padding: 0 2rem;
+  padding: 0 1rem;
 }
 
 .continue {
@@ -46,6 +52,10 @@ body,
     transition: opacity 0s;
     cursor: default;
   }
+}
+
+.none {
+  display: none;
 }
 
 .debug {
