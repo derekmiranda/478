@@ -12,5 +12,8 @@
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
     "sass": "^1.26.10"
+  },
+  "dependencies": {
+    "query-string": "^6.13.1"
   }
 }
