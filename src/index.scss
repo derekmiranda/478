@@ -1,0 +1,36 @@
+@import 'reset';
+
+$bg: #fdf5e6;
+$text-color: #8FAFB0;
+$secondary-color: #DCD9FC;
+$secondary-hover: #928FB0;
+
+html,
+body,
+#container {
+  background: $bg;
+  width: 100%;
+  height: 100%;
+}
+
+#container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2.5rem;
+  color: $text-color;
+  transform-origin: 50% 50%;
+}
+
+#continue {
+  margin-left: 0.5rem;
+  transition: color 1s;
+  color: $secondary-color;
+  cursor: pointer;
+
+  &:hover {
+    color: $secondary-hover;
+  }
+}
