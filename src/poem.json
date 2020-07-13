@@ -1,36 +1,118 @@
-[
-  { "text": "breathe in for 4", "anim": "in" },
-  { "text": "hold for 7", "anim": "hold" },
-  { "text": "out for 8", "anim": "out" },
-  { "text": "i breathe like this to calm myself down" },
-  { "text": "when i’m worried about work or money" },
-  { "text": "or when i feel my health isn’t improving" },
-  { "text": "or when the world feels beyond my control" },
-  { "text": "or because i’m just not calm" },
-  { "text": "it scares me to think anxiety can arise without reason", "anim": "pulse1" },
-  { "text": "that my brain just feels like this" },
-  { "text": "this sucks", "anim": "pulse2" },
-  { "text": "i think" },
-  { "text": "as it sucks the breath i was going to take" },
-  { "text": "i fight for it" },
-  { "text": "i breathe harder" },
-  { "text": "i wheeze harder" },
-  { "text": "in" },
-  { "text": "out" },
-  { "text": "in", "anim": "pulse3" },
-  { "text": "out" },
-  { "text": "in,out" },
-  { "text": "in,out,in,out" },
-  { "text": "inoutinoutinoutinout", "anim": "pulse4" },
-  { "text": "in", "anim": "in" },
-  { "text": "...", "anim": "hold" },
-  { "text": "out", "anim": "out" },
-  { "text": "it sucks a bit less now" },
-  { "text": "i keep breathing...", "anim": "in" },
-  { "text": "and hold...", "anim": "hold" },
-  { "text": "onto the air that’s mine for a moment", "anim": "out" },
-  { "text": "and release it, trading it for another" },
-  { "text": "another wind to sneak my worries into" },
-  { "text": "another chance to embrace imperfection" },
-  { "text": "another way to be in control without control" }
+[{
+    "text": "breathe in for 4",
+    "anim": "in"
+  },
+  {
+    "text": "hold for 7",
+    "anim": "hold"
+  },
+  {
+    "text": "out for 8",
+    "anim": "out"
+  },
+  {
+    "text": "i breathe like this to calm myself down"
+  },
+  {
+    "text": "when i’m worried about work or money"
+  },
+  {
+    "text": "or when i feel my health isn’t improving"
+  },
+  {
+    "text": "or when the world feels beyond my control"
+  },
+  {
+    "text": "or because i’m just not calm"
+  },
+  {
+    "text": "it scares me to think anxiety can arise without reason",
+    "anim": "pulse1"
+  },
+  {
+    "text": "that my brain just feels like this"
+  },
+  {
+    "text": "this sucks",
+    "anim": "pulse2"
+  },
+  {
+    "text": "i think"
+  },
+  {
+    "text": "as it sucks the breath i was going to take"
+  },
+  {
+    "text": "i fight for it"
+  },
+  {
+    "text": "i breathe harder"
+  },
+  {
+    "text": "i wheeze harder"
+  },
+  {
+    "text": "in"
+  },
+  {
+    "text": "out"
+  },
+  {
+    "text": "in",
+    "anim": "pulse3"
+  },
+  {
+    "text": "out"
+  },
+  {
+    "text": "in,out"
+  },
+  {
+    "text": "in,out,in,out",
+    "anim": "pulse4"
+  },
+  {
+    "text": "inoutinoutinoutinout"
+  },
+  {
+    "text": "in",
+    "anim": "in"
+  },
+  {
+    "text": "...",
+    "anim": "hold"
+  },
+  {
+    "text": "out",
+    "anim": "out"
+  },
+  {
+    "text": "it sucks a bit less now"
+  },
+  {
+    "text": "i keep breathing...",
+    "anim": "in"
+  },
+  {
+    "text": "and hold...",
+    "anim": "hold"
+  },
+  {
+    "text": "onto the air that’s mine for a moment",
+    "anim": "out"
+  },
+  {
+    "text": "and release it, trading it for another",
+    "anim": "pulse1"
+  },
+  {
+    "text": "another wind to sneak my worries into"
+  },
+  {
+    "text": "another chance to embrace imperfection"
+  },
+  {
+    "text": "another way to be in control without control",
+    "anim": "end"
+  }
 ]
