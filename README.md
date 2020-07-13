@@ -2,5 +2,4 @@
 
 ## Todo
 
-- [ ] subtle timer anim
-- [ ] favicon
+- favicon

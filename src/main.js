@@ -10,10 +10,12 @@ const IN_TIME = 4
 const HOLD_TIME = 7
 const OUT_TIME = 8
 const EASE = "power1.inOut"
+const HOLD_VID = 'water.mp4'
 
 const container = document.getElementById('container')
 const lineEl = document.getElementById('line')
 const continueEl = document.getElementById('continue')
+const vidEl = document.getElementById('video')
 const debugEl = document.querySelector('.debug')
 
 let _currLine = 0
@@ -78,6 +80,17 @@ function handleClick(e) {
   }
 }
 
+function putInHoldAnim() {
+  vidEl.style.display = 'block'
+  vidEl.play()
+}
+
+function removeHoldAnim() {
+  vidEl.style.display = 'none'
+  vidEl.currentTime = 0
+  vidEl.pause()
+}
+
 const anims = {
   in () {
     endAnyPulse()
@@ -93,10 +106,23 @@ const anims = {
   },
   hold() {
     disableBtn()
-    // TODO: passive anim
-    gsap.delayedCall(HOLD_TIME, () => {
-      enableBtn()
-    })
+    putInHoldAnim()
+    gsap.timeline()
+      .to(vidEl, HOLD_TIME / 2, {
+        opacity: 0.3,
+        ease: EASE
+      })
+      .to(vidEl, HOLD_TIME / 2, {
+        opacity: 0,
+        ease: EASE,
+        onComplete() {
+          removeHoldAnim()
+          enableBtn()
+        }
+      })
+    // gsap.delayedCall(HOLD_TIME, () => {
+    //   enableBtn()
+    // })
   },
   out() {
     endAnyPulse
