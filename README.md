@@ -2,6 +2,5 @@
 
 ## Todo
 
-- [ ] 3D tilt
-- [ ] Tilt w/ mouse movements
+- [ ] subtle timer anim
 - [ ] favicon
